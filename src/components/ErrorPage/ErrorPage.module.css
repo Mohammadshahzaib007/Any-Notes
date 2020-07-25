@@ -1,0 +1,30 @@
+.ErrorPageContainer {
+    width: 100%;
+}
+
+.MianErrorContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+.ErrorPng {
+    height: 40rem;
+}
+
+.ErrorHeading {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #894aff;
+    text-transform: uppercase;
+}
+
+@media (max-width: 26.375em) {
+    .ErrorPng {
+        height: 30rem;
+    }   
+}

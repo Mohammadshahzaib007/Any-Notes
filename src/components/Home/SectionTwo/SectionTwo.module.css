@@ -1,0 +1,37 @@
+.SectionOneContainer {
+    width: 100%;
+}
+
+.ContentContainer {
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.ContentHeadingPeraContainer {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.MobileSvgContainer {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.PhoneSvg {
+    height: 32rem;
+}
+
+@media (max-width: 56.875em) {
+    .ContentContainer {
+        min-height: 60vh;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .PhoneSvg {
+        height: 25rem;
+    }
+}

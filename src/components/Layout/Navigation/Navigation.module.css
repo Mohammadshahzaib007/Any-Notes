@@ -1,0 +1,16 @@
+.Logo {
+    height: 250px;
+    margin-left: -5rem;
+}
+
+.NavBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 40.625em) {
+    .NavBtnContainer {
+       display: none;
+    }
+}
